@@ -30,7 +30,7 @@ void loop() {
     
     //ハイパルスの時間が0より大きいなら計測できている。かつ周囲が暗いなら(蓋がしまっている状態に近いなら)
     if(echo_time > 0 && light <= close_value){
-      float distance = 340 * echo_time / 2 / 1000.0; //距離を計算(音速*ハイパルスの時間/ 2 / 1000 [cmになおして往復分の半分にする])
+      float distance = 340 * echo_time / 2 / 10000.0; //距離を計算(音速*ハイパルスの時間/ 2 / 10000 [cmになおして往復分の半分にする])
       if(distance <= 45){
         tone(buzzer_pin,262,200); //ブザーを鳴らす
       }
