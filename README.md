@@ -1,6 +1,4 @@
-# Arduino
-
-**ゴミ箱 (ゴミ総量お知らせシステム)**
+# ゴミ箱 (ゴミ総量お知らせシステム)
 
 Arduino Uno R3 (予定) 割り込みピンは2,3番ピン
 
@@ -18,3 +16,19 @@ Arduino Uno R3 (予定) 割り込みピンは2,3番ピン
 回路シュミレーション
 
 https://www.tinkercad.com/things/ewQd3EKqwq2-/editel?sharecode=NqYq7NcnvWMgjdA9b8kittQfPWN3YIP-8VhoYHqJw1Y
+
+
+プロトタイプのフローチャート(プログラム)
+
+![ゴミ箱流れ図(仮) drawio](https://github.com/ochiryosuke/Arduino/assets/108120560/65610adb-5cf8-4f30-944f-79f082ae1563)
+
+  ソースコード(スケッチ)はpolling_garbagebox_v1フォルダ内です
+  
+
+**シリアルモニタではなく7セグメントLEDに距離[cm]を表示する**
+
+  ソースコード(スケッチ)は7segled_four_distanceフォルダ内です
+
+**ブザーを使ってシャトルランの音を再現した例**
+
+  ソースコード(スケッチ)はbuzzer内です
