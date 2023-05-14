@@ -19,11 +19,10 @@ https://www.tinkercad.com/things/ewQd3EKqwq2-/editel?sharecode=NqYq7NcnvWMgjdA9b
 
 
 プロトタイプのフローチャート(プログラム)
-
-![ゴミ箱流れ図(仮) drawio](https://github.com/ochiryosuke/Arduino/assets/108120560/65610adb-5cf8-4f30-944f-79f082ae1563)
+![ゴミ箱流れ図(仮) drawio (1)](https://github.com/ochiryosuke/Arduino/assets/108120560/3a08d309-a8d9-4d47-af9f-730e7f796325)
 
   *ソースコード(スケッチ)はpolling_garbagebox_v1フォルダ内です*
-  
+
 
 **シリアルモニタではなく7セグメントLEDに距離[cm]を表示する**
 
